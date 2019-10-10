@@ -1,7 +1,27 @@
 @import url(https://fonts.googleapis.com/css?family=Varela+Round);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton|Merriweather+Sans&display=swap');
 div#top-div {
     height: 200px;
     background-color: #5fd05f;
     width: 100%;
+    position: absolute;
+}
+
+div#top-inner {
+    box-sizing: border-box;
+    width: 500px;
+    height: 172px;
+    border: 5px solid white;
+    margin-left: 33%;
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+}
+
+h1 {
+    font-family: 'Merriweather Sans', sans-serif;
 }
