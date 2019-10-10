@@ -1,2 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Varela+Round);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+div#top-div {
+    height: 200px;
+    background-color: #5fd05f;
+    width: 100%;
+}
