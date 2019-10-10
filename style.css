@@ -11,10 +11,10 @@ div#top-div {
 
 div#top-inner {
     box-sizing: border-box;
-    width: 500px;
+    width: 700px;
     height: 172px;
     border: 5px solid white;
-    margin-left: 33%;
+    margin-left: 25%;
     margin-top: 15px;
     padding-top: 15px;
     padding-right: 100px;
@@ -24,6 +24,7 @@ div#top-inner {
 
 h1 {
     font-family: 'Merriweather Sans', sans-serif;
+    font-size: 36px !important
 }
 
 .left_column {
