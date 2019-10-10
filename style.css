@@ -6,7 +6,7 @@ div#top-div {
     height: 200px;
     background-color: #5fd05f;
     width: 100%;
-    position: absolute;
+    position: relative;
 }
 
 div#top-inner {
@@ -24,4 +24,48 @@ div#top-inner {
 
 h1 {
     font-family: 'Merriweather Sans', sans-serif;
+}
+
+.left_column {
+    margin-left: 60px;
+    float: left;
+    background-color: #9da09d;
+    width: 30%;
+    height: 600px;
+}
+
+.right_column {}
+
+img {
+    border-radius: 50%;
+    margin: 65px;
+    width: 68%;
+}
+
+.item1 {
+    grid-area: header;
+}
+
+.item2 {
+    grid-area: left_sidebar;
+    width: 50%;
+}
+
+.item3 {
+    grid-area: right_sidebar;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 'header header header header header header' 'left_sidebar left_sidebar right_sidebar right_sidebar right_sidebar right_sidebar';
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.grid-container>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
 }
