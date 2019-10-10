@@ -21,7 +21,6 @@ div#top-inner {
 
 h1 {
     font-family: 'Merriweather Sans', sans-serif;
-    font-size: 36px !important
 }
 
 .flex-container,
@@ -36,11 +35,12 @@ p {
 img {
     border-radius: 50%;
     margin: 20px;
-    width: 215px;
+    width: 350px;
 }
 
 .item1 {
     grid-area: header;
+    height: 200px;
 }
 
 .item2 {
@@ -72,7 +72,8 @@ span#name {
 }
 
 p#work-info {
-    margin-left: 190px;
+    margin-left: 230px;
+    font-style: italic;
 }
 
 p#edu-info {
@@ -88,4 +89,36 @@ p#edu-info {
     margin: 10px;
     padding: 20px;
     font-size: 30px;
+}
+
+.flex-container-main {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.row {
+    width: auto;
+    border: 6px solid white;
+}
+
+.flex-item-main {
+    /* padding: 5px; */
+    width: 900px;
+    height: 90px;
+    /* margin: 10px; */
+    line-height: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    line-height: 0em;
 }
