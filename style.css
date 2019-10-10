@@ -1,7 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Varela+Round);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
-@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Anton|Merriweather+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton|Asap|Merriweather+Sans&display=swap');
 div#top-div {
     height: 200px;
     background-color: #5fd05f;
@@ -25,6 +22,13 @@ div#top-inner {
 h1 {
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 36px !important
+}
+
+h2,
+h3,
+p {
+    font-family: 'Asap', sans-serif;
+    margin-left: 20px;
 }
 
 img {
@@ -67,4 +71,9 @@ span#name {
 
 p#work-info {
     margin-left: 190px;
+}
+
+p#edu-info {
+    margin-left: 210px;
+    font-style: italic;
 }
