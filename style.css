@@ -50,7 +50,7 @@ img {
     display: grid;
     grid-template-areas: 'header header header header header header' 'menu main main main main main' 'menu footer footer footer footer footer';
     grid-gap: 10px;
-    background-color: #2196F3;
+    background-color: #5fd05f;
     padding: 10px;
 }
 
@@ -59,4 +59,12 @@ img {
     text-align: left;
     padding: 20px 0;
     font-size: 20px;
+}
+
+span#name {
+    margin-left: 90px;
+}
+
+p#work-info {
+    margin-left: 190px;
 }
